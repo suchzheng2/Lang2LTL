@@ -1,0 +1,219 @@
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> do not enter [loc0] and find the kabob and [loc1]
+= g (! [loc0]) & f (kabob and [loc1])
+<g (! [loc0]) & f (kabob and [loc1]) <EOS>
+
+> go to the [loc0] and then go to the cvs
+= f ([loc0] & f (cvs))
+<f ([loc0] & f (cvs)) <EOS>
+
+> stay on the [loc0] and find the [loc1]
+= g ([loc0]) & f ([loc1])
+<g ([loc0]) & f ([loc1]) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> stay on the [loc0] and find the kabob and [loc1]
+= g ([loc0]) & f (kabob and [loc1])
+<g ([loc0]) & f (kabob and [loc1]) <EOS>
+
+> stay on the [loc0] and find the [loc1]
+= g ([loc0]) & f ([loc1])
+<g ([loc0]) & f ([loc1]) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> go to the [loc0] and curry and then go to the [loc1]
+= f ([loc0] and curry & f ([loc1]))
+<f ([loc0] and curry & f ([loc1])) <EOS>
+
+> find the [loc0] and then find the cvs
+= f ([loc0] & f (cvs))
+<f ([loc0] & f (cvs)) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> do not enter [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> go to the [loc0] and then go to the kabob and [loc1]
+= f ([loc0] & f (kabob and [loc1]))
+<f ([loc0] & f (kabob and [loc1])) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter thayer [loc0] find the [loc1] and then find the [loc2]
+= g (! thayer st) & f ([loc1] f ([loc2]))
+<g (! angell st) & f ([loc1] f ([loc2])) <EOS>
+
+> go to the [loc0]
+= f ([loc0])
+<f ([loc0]) <EOS>
+
+> do not enter angell [loc0] find the [loc1] and then find the [loc2]
+= g (! angell st) & f ([loc1] f ([loc2]))
+<g (! angell st) & f ([loc1] f ([loc2])) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the cvs
+= g ([loc0]) & f ([loc1] f (cvs))
+<g ([loc0]) & f ([loc1] f (cvs)) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter angell [loc0] find the [loc1] and then find the [loc2]
+= g (! angell st) & f ([loc1] f ([loc2]))
+<g (! angell st) & f ([loc1] f ([loc2])) <EOS>
+
+> find the [loc0] and then find the cvs
+= f ([loc0] & f (cvs))
+<f ([loc0] & f (cvs)) <EOS>
+
+> find the cvs and then find the [loc0]
+= f (cvs & f ([loc0]))
+<f (cvs & f ([loc0])) <EOS>
+
+> do not enter thayer [loc0] find the [loc1] and then find the [loc2]
+= g (! thayer st) & f ([loc1] f ([loc2]))
+<g (! angell st) & f ([loc1] f ([loc2])) <EOS>
+
+> stay on the [loc0] first find the kabob and curry and then find the [loc1]
+= g ([loc0]) & f (kabob and curry f ([loc1]))
+<g ([loc0]) & f (kabob and curry f ([loc1])) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> go to the cvs and then go to the [loc0]
+= f (cvs & f ([loc0]))
+<f (cvs & f ([loc0])) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter brook st first find the [loc0] and then find the cvs
+= g (! brook st) & f ([loc0] f (cvs))
+<g (! brook st) & f ([loc0] f (cvs)) <EOS>
+
+> find the [loc0] and then find the cvs
+= f ([loc0] & f (cvs))
+<f ([loc0] & f (cvs)) <EOS>
+
+> do not enter [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> stay away from [loc0] and find the cvs
+= g (! [loc0]) & f (cvs)
+<g (! [loc0]) & f (cvs) <EOS>
+
+> go to the [loc0] and then go to the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> do not enter brook st first find the [loc0] and then find the [loc1]
+= g (! brook st) & f ([loc0] f ([loc1]))
+<g (! brook st) & f ([loc0] f ([loc1])) <EOS>
+
+> do not leave the [loc0] and find the [loc1]
+= g ([loc0]) & f ([loc1])
+<g ([loc0]) & f ([loc1]) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> stay away from [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the kabob and [loc2]
+= g ([loc0]) & f ([loc1] f (kabob and [loc2]))
+<g ([loc0]) & f ([loc1] f (kabob and [loc2])) <EOS>
+
+> find the [loc0] and then find the [loc1]
+= f ([loc0] & f ([loc1]))
+<f ([loc0] & f ([loc1])) <EOS>
+
+> stay away from [loc0] and find the [loc1]
+= g (! [loc0]) & f ([loc1])
+<g (! [loc0]) & f ([loc1]) <EOS>
+
+> find where is the [loc0]
+= f ([loc0])
+<f ([loc0]) <EOS>
+
+> go to the [loc0] and then go to the cvs
+= f ([loc0] & f (cvs))
+<f ([loc0] & f (cvs)) <EOS>
+
+> find the [loc0]
+= f ([loc0])
+<f ([loc0]) <EOS>
+
+> stay on the [loc0] first find the [loc1] and then find the [loc2]
+= g ([loc0]) & f ([loc1] f ([loc2]))
+<g ([loc0]) & f ([loc1] f ([loc2])) <EOS>

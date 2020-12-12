@@ -1,0 +1,219 @@
+> find the bookstore and then find the nelson fitness center
+= f (bookstore & f (nelson fitness center))
+<f (bookstore & f (nelson fitness center)) <EOS>
+
+> stay on the angell st first find the bookstore and then find the chipotle
+= g (angell st) & f (bookstore & f (chipotle))
+<g (angell st) & f (bookstore & f (chipotle)) <EOS>
+
+> do not enter angell st first find the barus building and then find the marston hall
+= g (! angell st) & f (barus building & f (marston hall))
+<g (! angell st) & f (barus building & f (marston hall)) <EOS>
+
+> stay on the thayer st and find the chipotle
+= g (thayer st) & f (chipotle)
+<g (thayer st) & f (chipotle) ​​<EOS>
+
+> go to the citizen's bank and then go to the bookstore
+= f (citizen's bank & f (bookstore))
+<f (citizen's bank & f (bookstore)) <EOS>
+
+> do not enter brook st first find the cvs and then find the chipotle
+= g (! brook st) & f (cvs & f (chipotle))
+<g (! brook st) & f (cvs & f (chipotle)) <EOS>
+
+> do not enter thayer st and find the marston hall
+= g (! thayer st) & f (marston hall)
+<g (! thayer st) & f (marston hall) <EOS>
+
+> do not enter brook st first find the bookstore and then find the chipotle
+= g (! brook st) & f (bookstore & f (chipotle))
+<g (! brook st) & f (bookstore & f (chipotle)) <EOS>
+
+> do not enter brook st first find the starbucks and then find the bookstore
+= g (! brook st) & f (starbucks & f (bookstore))
+<g (! brook st) & f (starbucks & f (bookstore)) <EOS>
+
+> stay on the thayer st first find the chipotle and then find the starbucks
+= g (thayer st) & f (chipotle & f (starbucks))
+<g (thayer st) & f (chipotle & f (starbucks)) <EOS>
+
+> do not enter brook st first find the chipotle and then find the cvs
+= g (! brook st) & f (chipotle & f (cvs))
+<g (! brook st) & f (chipotle & f (cvs)) <EOS>
+
+> go to the science library and then go to the watson center
+= f (science library & f (watson center))
+<f (science library & f (watson center)) <EOS>
+
+> go to the cvs and then go to the bookstore
+= f (cvs & f (bookstore))
+<f (cvs & f (bookstore)) <EOS>
+
+> go to the science library and then go to the chipotle
+= f (science library & f (chipotle))
+<f (science library & f (chipotle)) <EOS>
+
+> find the barus building and then find the fedex office
+= f (barus building & f (fedex office))
+<f (barus building & f (fedex office)) <EOS>
+
+> go to the science library and then go to the citizen's bank
+= f (science library & f (citizen's bank))
+<f (science library & f (citizen's bank)) <EOS>
+
+> stay on the thayer st first find the bookstore and then find the chipotle
+= g (thayer st) & f (bookstore & f (chipotle))
+<g (thayer st) & f (bookstore & f (chipotle)) <EOS>
+
+> go to the watson center and then go to the cvs
+= f (watson center & f (cvs))
+<f (watson center & f (cvs)) <EOS>
+
+> go to the marston hall and then go to the nelson fitness center
+= f (marston hall & f (nelson fitness center))
+<f (marston hall & f (nelson fitness center)) <EOS>
+
+> go to the chipotle and then go to the kabob and curry
+= f (chipotle & f (kabob and curry))
+<f (chipotle & f (kabob and curry)) <EOS>
+
+> stay on the thayer st first find the cvs and then find the bookstore
+= g (thayer st) & f (cvs & f (bookstore))
+<g (thayer st) & f (cvs & f (bookstore)) <EOS>
+
+> do not enter angell st and find the barus building
+= g (! angell st) & f (barus building)
+<g (! angell st) & f (barus building) <EOS>
+
+> find the cvs and then find the starbucks
+= f (cvs & f (starbucks))
+<f (cvs & f (starbucks)) <EOS>
+
+> go to the cvs and then go to the fedex office
+= f (cvs & f (fedex office))
+<f (cvs & f (fedex office)) <EOS>
+
+> go to the science library and then go to the starbucks
+= f (science library & f (starbucks))
+<f (science library & f (starbucks)) <EOS>
+
+> go to the barus building and then go to the chipotle
+= f (barus building & f (chipotle))
+<f (barus building & f (chipotle)) <EOS>
+
+> do not enter brook st first find the bookstore and then find the chipotle
+= g (! brook st) & f (bookstore & f (chipotle))
+<g (! brook st) & f (bookstore & f (chipotle)) <EOS>
+
+> find the fedex office and then find the chipotle
+= f (fedex office & f (chipotle))
+<f (fedex office & f (chipotle)) <EOS>
+
+> do not enter brook st first find the bookstore and then find the starbucks
+= g (! brook st) & f (bookstore & f (starbucks))
+<g (! brook st) & f (bookstore & f (starbucks)) <EOS>
+
+> find the citizen's bank and then find the kabob and curry
+= f (citizen's bank & f (kabob and curry))
+<f (citizen's bank & f (kabob and curry)) <EOS>
+
+> do not enter angell st first find the watson center and then find the marston hall
+= g (! angell st) & f (watson center & f (marston hall))
+<g (! angell st) & f (watson center & f (marston hall)) <EOS>
+
+> go to the barus building and then go to the marston hall
+= f (barus building & f (marston hall))
+<f (barus building & f (marston hall)) <EOS>
+
+> find the kabob and curry and then find the citizen's bank
+= f (kabob and curry & f (citizen's bank))
+<f (kabob and curry & f (citizen's bank)) <EOS>
+
+> do not enter angell st first find the citizen's bank and then find the watson center
+= g (! angell st) & f (citizen's bank & f (watson center))
+<g (! angell st) & f (citizen's bank & f (watson center)) <EOS>
+
+> do not enter brook st and find the chipotle
+= g (! brook st) & f (chipotle)
+<g (! brook st) & f (chipotle) ​​<EOS>
+
+> find the fedex office and then find the marston hall
+= f (fedex office & f (marston hall))
+<f (fedex office & f (marston hall)) <EOS>
+
+> go to the citizen's bank
+= f (citizen's bank)
+<f (citizen's bank) <EOS>
+
+> stay on the thayer st first find the kabob and curry and then find the bookstore
+= g (thayer st) & f (kabob and curry & f (bookstore))
+<g (thayer st) & f (kabob and curry & f (bookstore)) <EOS>
+
+> do not enter angell st first find the marston hall and then find the watson center
+= g (! angell st) & f (marston hall & f (watson center))
+<g (! angell st) & f (marston hall & f (watson center)) <EOS>
+
+> find the science library and then find the fedex office
+= f (science library & f (fedex office))
+<f (science library & f (fedex office)) <EOS>
+
+> do not leave the thayer st and find the chipotle
+= g (thayer st) & f (chipotle)
+<g (thayer st) & f (chipotle) ​​<EOS>
+
+> find the marston hall and then find the science library
+= f (marston hall & f (science library))
+<f (marston hall & f (science library)) <EOS>
+
+> go to the watson center and then go to the nelson fitness center
+= f (watson center & f (nelson fitness center))
+<f (watson center & f (nelson fitness center)) <EOS>
+
+> do not enter angell st first find the citizen's bank and then find the marston hall
+= g (! angell st) & f (citizen's bank & f (marston hall))
+<g (! angell st) & f (citizen's bank & f (marston hall)) <EOS>
+
+> do not enter brook st first find the science library and then find the bookstore
+= g (! brook st) & f (science library & f (bookstore))
+<g (! brook st) & f (science library & f (bookstore)) <EOS>
+
+> stay on the brook st and find the marston hall
+= g (brook st) & f (marston hall)
+<g (brook st) & f (marston hall) <EOS>
+
+> go to the marston hall and then go to the cvs
+= f (marston hall & f (cvs))
+<f (marston hall & f (cvs)) <EOS>
+
+> stay away from thayer st and find the barus building
+= g (! thayer st) & f (barus building)
+<g (! thayer st) & f (barus building) <EOS>
+
+> do not enter brook st first find the bookstore and then find the chipotle
+= g (! brook st) & f (bookstore & f (chipotle))
+<g (! brook st) & f (bookstore & f (chipotle)) <EOS>
+
+> do not enter brook st first find the chipotle and then find the bookstore
+= g (! brook st) & f (chipotle & f (bookstore))
+<g (! brook st) & f (chipotle & f (bookstore)) <EOS>
+
+> stay away from thayer st and find the bookstore
+= g (! thayer st) & f (bookstore)
+<g (! thayer st) & f (bookstore) <EOS>
+
+> go to the nelson fitness center and then go to the chipotle
+= f (nelson fitness center & f (chipotle))
+<f (nelson fitness center & f (chipotle)) <EOS>
+
+> find the bookstore and then find the marston hall
+= f (bookstore & f (marston hall))
+<f (bookstore & f (marston hall)) <EOS>
+
+> find the kabob and curry and then find the starbucks
+= f (kabob and curry & f (starbucks))
+<f (kabob and curry & f (starbucks)) <EOS>
+
+> stay on the thayer st first find the kabob and curry and then find the cvs
+= g (thayer st) & f (kabob and curry & f (cvs))
+<g (thayer st) & f (kabob and curry & f (cvs)) <EOS>

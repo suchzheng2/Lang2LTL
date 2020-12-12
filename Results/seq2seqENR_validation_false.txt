@@ -1,0 +1,27 @@
+> find the [loc0] and then find the kabob and [loc1]
+= f ([loc0] & f (kabob and [loc1]))
+<f ([loc0] & f (kabob and [loc1])) <EOS>
+
+> find the [loc0] and curry and then find the [loc1]
+= f ([loc0] and curry & f ([loc1]))
+<f ([loc0] and curry & f ([loc1])) <EOS>
+
+> stay on the [loc0] first find the kabob and curry and then find the [loc1]
+= g ([loc0]) & f (kabob and curry f ([loc1]))
+<g ([loc0]) & f (kabob and curry f ([loc1])) <EOS>
+
+> do not enter brook st first find the cvs and then find the [loc0] and [loc1]
+= g (! brook st) & f (cvs f ([loc0] and [loc1]))
+<g (! brook st) & f (cvs f ([loc0])) <EOS>
+
+> do not enter brook st first find the [loc0] and curry and then find the cvs
+= g (! brook st) & f ([loc0] and curry f (cvs))
+<g (! brook st) & f ([loc0] curry f (cvs)) <EOS>
+
+> do not enter brook st first find the [loc0] and curry and then find the [loc1]
+= g (! brook st) & f ([loc0] and curry f ([loc1]))
+<g (! brook st) & f ([loc0] curry f ([loc1])) <EOS>
+
+> do not enter angell [loc0] find the [loc1] and then find the kabob and [loc2]
+= g (! angell st) & f ([loc1] f (kabob and [loc2]))
+<g (! angell st) & f ([loc1] f (kabob and [loc2])) <EOS>
